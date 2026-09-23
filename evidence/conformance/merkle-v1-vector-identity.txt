@@ -1,0 +1,4 @@
+artifact=vectors/v1/merkle-v1.json
+size_bytes=11375
+sha256=4d6b92748c2b4609ecbe6b811fcaa6bee1355aef922ba15fa45023938c7bc4ad
+timestamp_utc=2026-08-11T05:12:35Z

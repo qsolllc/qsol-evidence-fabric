@@ -1,0 +1,56 @@
+============================================================
+QSOL MERKLE-V1 — REMOTE PROVENANCE INVENTORY
+============================================================
+timestamp_utc=2026-08-11T05:32:15Z
+workspace=/data/data/com.termux/files/home/qsol-evidence-fabric
+specification=specification/MERKLE-V1.md
+specification_sha256=596ad7225200b15aece0b29950e98ff69f1faffa9652a20aaae8fe70c2b16abf
+
+============================================================
+1. LOCAL REMOTE CONFIGURATION
+============================================================
+origin	https://github.com/qsolllc/qsol-evidence-fabric.git (fetch)
+origin	https://github.com/qsolllc/qsol-evidence-fabric.git (push)
+remote.origin.url https://github.com/qsolllc/qsol-evidence-fabric.git
+remote.origin.fetch +refs/heads/*:refs/remotes/origin/*
+
+============================================================
+2. REMOTE ADVERTISED REFERENCES
+============================================================
+6499df5d80436b8fe5adb95eea519b370888a73d	refs/heads/main
+
+============================================================
+3. REMOTE TAG REFERENCES
+============================================================
+
+============================================================
+4. REMOTE HEAD / DEFAULT REFERENCE
+============================================================
+ref: refs/heads/main	HEAD
+6499df5d80436b8fe5adb95eea519b370888a73d	HEAD
+
+============================================================
+5. REMOTE MERKLE / PROMOTION REFERENCE SEARCH
+============================================================
+
+============================================================
+6. LOCAL SPECIFICATION IDENTITY
+============================================================
+596ad7225200b15aece0b29950e98ff69f1faffa9652a20aaae8fe70c2b16abf  specification/MERKLE-V1.md
+
+============================================================
+7. PROVENANCE CLASSIFICATION
+============================================================
+Remote references establish repository metadata only.
+
+A remote branch or tag is not itself promotion evidence.
+A historical specification is not itself promotion evidence.
+
+A valid promotion finding requires:
+  1. exact specification identity;
+  2. explicit promotion/status event;
+  3. explicit connection between the event and the specification.
+
+authority_inference=DISABLED
+promotion_inference=DISABLED
+remote_provenance_inventory_completed=true

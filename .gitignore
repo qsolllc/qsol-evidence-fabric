@@ -1,0 +1,9 @@
+/target/
+**/target/
+__pycache__/
+*.pyc
+*.pyo
+*.bak
+*.swp
+.DS_Store
+evidence/conformance/merkle-v1-evidence-local-correlation.txt

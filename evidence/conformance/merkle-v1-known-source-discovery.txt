@@ -1,0 +1,52 @@
+============================================================
+QSOL MERKLE-V1 — KNOWN SOURCE DISCOVERY MANIFEST
+============================================================
+inventory_version=1
+discovery_timestamp_utc=2026-08-11T05:37:48Z
+workspace=/data/data/com.termux/files/home/qsol-evidence-fabric
+specification=specification/MERKLE-V1.md
+specification_sha256=596ad7225200b15aece0b29950e98ff69f1faffa9652a20aaae8fe70c2b16abf
+
+============================================================
+SOURCE SCOPE RULE
+============================================================
+Only previously established QSOL/MERKLE-V1 historical sources
+may be entered into this manifest.
+
+No source is included merely because it is suspected to
+contain MERKLE-V1.
+
+Each source requires an independently recorded reason for
+inclusion before historical-content inspection.
+
+============================================================
+SOURCE RECORD SCHEMA
+============================================================
+source_id=
+repository=
+remote_url=
+reason_for_inclusion=
+discovery_timestamp_utc=
+scope=
+search_terms=specification/MERKLE-V1.md|MERKLE-V1.md|MERKLE-V1
+search_status=NOT_SEARCHED
+
+============================================================
+CURRENTLY ESTABLISHED SOURCE
+============================================================
+source_id=QSOL-EVIDENCE-FABRIC
+repository=qsolllc/qsol-evidence-fabric
+remote_url=https://github.com/qsolllc/qsol-evidence-fabric.git
+reason_for_inclusion=Existing examined MERKLE-V1 evidence repository
+scope=Already examined; retained as provenance baseline
+search_status=EXAMINED
+finding=specification/MERKLE-V1.md absent from advertised main commit
+commit=6499df5d80436b8fe5adb95eea519b370888a73d
+
+============================================================
+CONTROL FLAGS
+============================================================
+authority_inference=DISABLED
+promotion_inference=DISABLED
+source_scope_expansion=DISABLED
+historical_identity_inference=DISABLED

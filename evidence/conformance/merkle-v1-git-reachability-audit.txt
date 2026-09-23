@@ -1,0 +1,60 @@
+============================================================
+QSOL MERKLE V1 GIT BLOB REACHABILITY AUDIT
+============================================================
+specification=specification/MERKLE-V1.md
+specification_sha256=596ad7225200b15aece0b29950e98ff69f1faffa9652a20aaae8fe70c2b16abf
+git_blob=87ba93402bbed669414fe45a02ff20b7c7f3c118
+
+============================================================
+1. GIT OBJECT TYPE
+============================================================
+fatal: git cat-file: could not get object info
+
+============================================================
+2. GIT OBJECT SIZE
+============================================================
+fatal: git cat-file: could not get object info
+
+============================================================
+3. CURRENT INDEX MEMBERSHIP
+============================================================
+
+============================================================
+4. CURRENT WORKTREE STATUS
+============================================================
+?? specification/MERKLE-V1.md
+
+============================================================
+5. ALL REACHABLE OBJECTS CONTAINING SPEC PATH
+============================================================
+
+============================================================
+6. COMMITS TOUCHING SPECIFICATION
+============================================================
+
+============================================================
+7. REFERENCES CONTAINING THE BLOB
+============================================================
+
+============================================================
+8. UNREACHABLE OBJECT CHECK
+============================================================
+
+============================================================
+9. REFLLOG / OBJECT RECOVERY CANDIDATE
+============================================================
+
+============================================================
+10. EVIDENTIARY CLASSIFICATION
+============================================================
+This audit determines Git-object reachability only.
+
+A reachable Git object does NOT by itself establish
+specification authority or FROZEN status.
+
+An unreachable Git object does NOT prove that promotion
+never occurred outside the surviving repository objects.
+
+authority_inference=DISABLED
+promotion_inference=DISABLED
+git_reachability_audit_completed=true

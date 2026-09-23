@@ -1,0 +1,45 @@
+============================================================
+QSOL MERKLE-V1 — ADVERTISED MAIN CONTENT INSPECTION
+============================================================
+timestamp_utc=2026-08-11T05:33:59Z
+repository=qsolllc/qsol-evidence-fabric
+commit=6499df5d80436b8fe5adb95eea519b370888a73d
+specification=specification/MERKLE-V1.md
+expected_sha256=596ad7225200b15aece0b29950e98ff69f1faffa9652a20aaae8fe70c2b16abf
+
+============================================================
+1. REMOTE COMMIT OBJECT
+============================================================
+{"message":"Initial commit","sha":"6499df5d80436b8fe5adb95eea519b370888a73d","tree":"ef7b605a9609987a2f92a0e080df8faeb505444b"}
+
+============================================================
+2. REMOTE TREE SEARCH
+============================================================
+
+============================================================
+3. EXACT SPECIFICATION BLOB LOOKUP
+============================================================
+specification_present=false
+historical_content_result=ABSENT_FROM_ADVERTISED_MAIN_COMMIT
+
+============================================================
+6. LOCAL SPECIFICATION IDENTITY RECHECK
+============================================================
+596ad7225200b15aece0b29950e98ff69f1faffa9652a20aaae8fe70c2b16abf  specification/MERKLE-V1.md
+
+============================================================
+7. PROVENANCE CLASSIFICATION
+============================================================
+This inspection establishes historical repository content only.
+
+A matching historical specification does NOT establish promotion.
+A Git commit containing the specification does NOT establish authority.
+
+Promotion requires:
+  1. exact specification identity;
+  2. explicit promotion/status event;
+  3. explicit connection between that event and the specification.
+
+authority_inference=DISABLED
+promotion_inference=DISABLED
+main_content_inspection_completed=true

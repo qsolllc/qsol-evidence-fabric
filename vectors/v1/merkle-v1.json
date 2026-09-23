@@ -1,0 +1,246 @@
+{
+  "schema": "QSOL-MERKLE-VECTOR-SET-V1",
+  "profile": "qsol-merkle-v1",
+  "cases": [
+    {
+      "schema": "QSOL-MERKLE-VECTOR-V1",
+      "case": "one_leaf",
+      "hash": "SHA3-256",
+      "domain_leaf": "51534f4c2d45564944454e43452d4641425249432d56312f4c454146",
+      "domain_node": "51534f4c2d45564944454e43452d4641425249432d56312f4e4f4445",
+      "artifacts": [
+        {
+          "path": "a.txt",
+          "size": 1,
+          "file_bytes_hex": "41",
+          "file_hash": "1c9ebd6caf02840a5b2b7f0fc870ec1db154886ae9fe621b822b14fd0bf513d6",
+          "leaf_preimage_hex": "51534f4c2d45564944454e43452d4641425249432d56312f4c454146612e747874000000000000000001001c9ebd6caf02840a5b2b7f0fc870ec1db154886ae9fe621b822b14fd0bf513d6",
+          "leaf_hash": "adda39828d6063b44d2f9eabb27509acc92dc70919e997dc9c74aa2c35bb45a2"
+        }
+      ],
+      "levels": [
+        [
+          "adda39828d6063b44d2f9eabb27509acc92dc70919e997dc9c74aa2c35bb45a2"
+        ]
+      ],
+      "node_operations": [],
+      "merkle_root": "adda39828d6063b44d2f9eabb27509acc92dc70919e997dc9c74aa2c35bb45a2"
+    },
+    {
+      "schema": "QSOL-MERKLE-VECTOR-V1",
+      "case": "two_leaf",
+      "hash": "SHA3-256",
+      "domain_leaf": "51534f4c2d45564944454e43452d4641425249432d56312f4c454146",
+      "domain_node": "51534f4c2d45564944454e43452d4641425249432d56312f4e4f4445",
+      "artifacts": [
+        {
+          "path": "a.txt",
+          "size": 1,
+          "file_bytes_hex": "41",
+          "file_hash": "1c9ebd6caf02840a5b2b7f0fc870ec1db154886ae9fe621b822b14fd0bf513d6",
+          "leaf_preimage_hex": "51534f4c2d45564944454e43452d4641425249432d56312f4c454146612e747874000000000000000001001c9ebd6caf02840a5b2b7f0fc870ec1db154886ae9fe621b822b14fd0bf513d6",
+          "leaf_hash": "adda39828d6063b44d2f9eabb27509acc92dc70919e997dc9c74aa2c35bb45a2"
+        },
+        {
+          "path": "b.txt",
+          "size": 1,
+          "file_bytes_hex": "42",
+          "file_hash": "521ec18851e17bbba961bc46c70baf03ee67ebdea11a8306de39c15a90e9d2e5",
+          "leaf_preimage_hex": "51534f4c2d45564944454e43452d4641425249432d56312f4c454146622e74787400000000000000000100521ec18851e17bbba961bc46c70baf03ee67ebdea11a8306de39c15a90e9d2e5",
+          "leaf_hash": "05eef1f3469ceb470924b58daf165283dd41fa3fcccefc5a830352b839a0b199"
+        }
+      ],
+      "levels": [
+        [
+          "adda39828d6063b44d2f9eabb27509acc92dc70919e997dc9c74aa2c35bb45a2",
+          "05eef1f3469ceb470924b58daf165283dd41fa3fcccefc5a830352b839a0b199"
+        ],
+        [
+          "3d4a331221c5073e218659589411e752430af6cc10c9745631f87f912707d650"
+        ]
+      ],
+      "node_operations": [
+        [
+          {
+            "left": "adda39828d6063b44d2f9eabb27509acc92dc70919e997dc9c74aa2c35bb45a2",
+            "right": "05eef1f3469ceb470924b58daf165283dd41fa3fcccefc5a830352b839a0b199",
+            "parent": "3d4a331221c5073e218659589411e752430af6cc10c9745631f87f912707d650"
+          }
+        ]
+      ],
+      "merkle_root": "3d4a331221c5073e218659589411e752430af6cc10c9745631f87f912707d650"
+    },
+    {
+      "schema": "QSOL-MERKLE-VECTOR-V1",
+      "case": "odd_leaf",
+      "hash": "SHA3-256",
+      "domain_leaf": "51534f4c2d45564944454e43452d4641425249432d56312f4c454146",
+      "domain_node": "51534f4c2d45564944454e43452d4641425249432d56312f4e4f4445",
+      "artifacts": [
+        {
+          "path": "a.txt",
+          "size": 1,
+          "file_bytes_hex": "41",
+          "file_hash": "1c9ebd6caf02840a5b2b7f0fc870ec1db154886ae9fe621b822b14fd0bf513d6",
+          "leaf_preimage_hex": "51534f4c2d45564944454e43452d4641425249432d56312f4c454146612e747874000000000000000001001c9ebd6caf02840a5b2b7f0fc870ec1db154886ae9fe621b822b14fd0bf513d6",
+          "leaf_hash": "adda39828d6063b44d2f9eabb27509acc92dc70919e997dc9c74aa2c35bb45a2"
+        },
+        {
+          "path": "b.txt",
+          "size": 1,
+          "file_bytes_hex": "42",
+          "file_hash": "521ec18851e17bbba961bc46c70baf03ee67ebdea11a8306de39c15a90e9d2e5",
+          "leaf_preimage_hex": "51534f4c2d45564944454e43452d4641425249432d56312f4c454146622e74787400000000000000000100521ec18851e17bbba961bc46c70baf03ee67ebdea11a8306de39c15a90e9d2e5",
+          "leaf_hash": "05eef1f3469ceb470924b58daf165283dd41fa3fcccefc5a830352b839a0b199"
+        },
+        {
+          "path": "c.txt",
+          "size": 1,
+          "file_bytes_hex": "43",
+          "file_hash": "2248e6be26f60c9baa59adbda2a136a4a5305d7b475d8465ba4911b4886e39a5",
+          "leaf_preimage_hex": "51534f4c2d45564944454e43452d4641425249432d56312f4c454146632e747874000000000000000001002248e6be26f60c9baa59adbda2a136a4a5305d7b475d8465ba4911b4886e39a5",
+          "leaf_hash": "f87e95355ea6b7bb56fbf83743cbd9a239d447eca37a1e1715372f94645be255"
+        }
+      ],
+      "levels": [
+        [
+          "adda39828d6063b44d2f9eabb27509acc92dc70919e997dc9c74aa2c35bb45a2",
+          "05eef1f3469ceb470924b58daf165283dd41fa3fcccefc5a830352b839a0b199",
+          "f87e95355ea6b7bb56fbf83743cbd9a239d447eca37a1e1715372f94645be255"
+        ],
+        [
+          "3d4a331221c5073e218659589411e752430af6cc10c9745631f87f912707d650",
+          "f87e95355ea6b7bb56fbf83743cbd9a239d447eca37a1e1715372f94645be255"
+        ],
+        [
+          "407b47c2fc50111484afb0eac64c783eb2dd4d12272ab87777922bc5033ea02a"
+        ]
+      ],
+      "node_operations": [
+        [
+          {
+            "left": "adda39828d6063b44d2f9eabb27509acc92dc70919e997dc9c74aa2c35bb45a2",
+            "right": "05eef1f3469ceb470924b58daf165283dd41fa3fcccefc5a830352b839a0b199",
+            "parent": "3d4a331221c5073e218659589411e752430af6cc10c9745631f87f912707d650"
+          },
+          {
+            "promoted": "f87e95355ea6b7bb56fbf83743cbd9a239d447eca37a1e1715372f94645be255"
+          }
+        ],
+        [
+          {
+            "left": "3d4a331221c5073e218659589411e752430af6cc10c9745631f87f912707d650",
+            "right": "f87e95355ea6b7bb56fbf83743cbd9a239d447eca37a1e1715372f94645be255",
+            "parent": "407b47c2fc50111484afb0eac64c783eb2dd4d12272ab87777922bc5033ea02a"
+          }
+        ]
+      ],
+      "merkle_root": "407b47c2fc50111484afb0eac64c783eb2dd4d12272ab87777922bc5033ea02a"
+    },
+    {
+      "schema": "QSOL-MERKLE-VECTOR-V1",
+      "case": "multi_level",
+      "hash": "SHA3-256",
+      "domain_leaf": "51534f4c2d45564944454e43452d4641425249432d56312f4c454146",
+      "domain_node": "51534f4c2d45564944454e43452d4641425249432d56312f4e4f4445",
+      "artifacts": [
+        {
+          "path": "a.txt",
+          "size": 1,
+          "file_bytes_hex": "41",
+          "file_hash": "1c9ebd6caf02840a5b2b7f0fc870ec1db154886ae9fe621b822b14fd0bf513d6",
+          "leaf_preimage_hex": "51534f4c2d45564944454e43452d4641425249432d56312f4c454146612e747874000000000000000001001c9ebd6caf02840a5b2b7f0fc870ec1db154886ae9fe621b822b14fd0bf513d6",
+          "leaf_hash": "adda39828d6063b44d2f9eabb27509acc92dc70919e997dc9c74aa2c35bb45a2"
+        },
+        {
+          "path": "b.txt",
+          "size": 1,
+          "file_bytes_hex": "42",
+          "file_hash": "521ec18851e17bbba961bc46c70baf03ee67ebdea11a8306de39c15a90e9d2e5",
+          "leaf_preimage_hex": "51534f4c2d45564944454e43452d4641425249432d56312f4c454146622e74787400000000000000000100521ec18851e17bbba961bc46c70baf03ee67ebdea11a8306de39c15a90e9d2e5",
+          "leaf_hash": "05eef1f3469ceb470924b58daf165283dd41fa3fcccefc5a830352b839a0b199"
+        },
+        {
+          "path": "c.txt",
+          "size": 1,
+          "file_bytes_hex": "43",
+          "file_hash": "2248e6be26f60c9baa59adbda2a136a4a5305d7b475d8465ba4911b4886e39a5",
+          "leaf_preimage_hex": "51534f4c2d45564944454e43452d4641425249432d56312f4c454146632e747874000000000000000001002248e6be26f60c9baa59adbda2a136a4a5305d7b475d8465ba4911b4886e39a5",
+          "leaf_hash": "f87e95355ea6b7bb56fbf83743cbd9a239d447eca37a1e1715372f94645be255"
+        },
+        {
+          "path": "d.txt",
+          "size": 1,
+          "file_bytes_hex": "44",
+          "file_hash": "037f4095baddc6f37fde4740c304b1691512d2fc9cf7ede8a93b8c9ec3d1fe07",
+          "leaf_preimage_hex": "51534f4c2d45564944454e43452d4641425249432d56312f4c454146642e74787400000000000000000100037f4095baddc6f37fde4740c304b1691512d2fc9cf7ede8a93b8c9ec3d1fe07",
+          "leaf_hash": "95e9e67ca35198937b24663842387f9290c17309a930f2aa25a447810e8e3636"
+        },
+        {
+          "path": "e.txt",
+          "size": 1,
+          "file_bytes_hex": "45",
+          "file_hash": "e63a84c18447bfca5c67b20a58fc6a4fefa762e4fa0e6b3b2e46f64daba345e5",
+          "leaf_preimage_hex": "51534f4c2d45564944454e43452d4641425249432d56312f4c454146652e74787400000000000000000100e63a84c18447bfca5c67b20a58fc6a4fefa762e4fa0e6b3b2e46f64daba345e5",
+          "leaf_hash": "29d1a6e024fad66befbf4dcd103a5ac6992728861b3d93bfe1e0d87b16a7d42f"
+        }
+      ],
+      "levels": [
+        [
+          "adda39828d6063b44d2f9eabb27509acc92dc70919e997dc9c74aa2c35bb45a2",
+          "05eef1f3469ceb470924b58daf165283dd41fa3fcccefc5a830352b839a0b199",
+          "f87e95355ea6b7bb56fbf83743cbd9a239d447eca37a1e1715372f94645be255",
+          "95e9e67ca35198937b24663842387f9290c17309a930f2aa25a447810e8e3636",
+          "29d1a6e024fad66befbf4dcd103a5ac6992728861b3d93bfe1e0d87b16a7d42f"
+        ],
+        [
+          "3d4a331221c5073e218659589411e752430af6cc10c9745631f87f912707d650",
+          "005632db06780821a8a68a4309300cf9b296f1fd72f846821332c79135e8f2e5",
+          "29d1a6e024fad66befbf4dcd103a5ac6992728861b3d93bfe1e0d87b16a7d42f"
+        ],
+        [
+          "a48443ccf3a16cf64c8c643c3a3a9d157322333dc901101244db83d915e650b7",
+          "29d1a6e024fad66befbf4dcd103a5ac6992728861b3d93bfe1e0d87b16a7d42f"
+        ],
+        [
+          "4ab89038e7c0bb5105f9026ad494895496908a4af618ba8f1a572e898566d2f6"
+        ]
+      ],
+      "node_operations": [
+        [
+          {
+            "left": "adda39828d6063b44d2f9eabb27509acc92dc70919e997dc9c74aa2c35bb45a2",
+            "right": "05eef1f3469ceb470924b58daf165283dd41fa3fcccefc5a830352b839a0b199",
+            "parent": "3d4a331221c5073e218659589411e752430af6cc10c9745631f87f912707d650"
+          },
+          {
+            "left": "f87e95355ea6b7bb56fbf83743cbd9a239d447eca37a1e1715372f94645be255",
+            "right": "95e9e67ca35198937b24663842387f9290c17309a930f2aa25a447810e8e3636",
+            "parent": "005632db06780821a8a68a4309300cf9b296f1fd72f846821332c79135e8f2e5"
+          },
+          {
+            "promoted": "29d1a6e024fad66befbf4dcd103a5ac6992728861b3d93bfe1e0d87b16a7d42f"
+          }
+        ],
+        [
+          {
+            "left": "3d4a331221c5073e218659589411e752430af6cc10c9745631f87f912707d650",
+            "right": "005632db06780821a8a68a4309300cf9b296f1fd72f846821332c79135e8f2e5",
+            "parent": "a48443ccf3a16cf64c8c643c3a3a9d157322333dc901101244db83d915e650b7"
+          },
+          {
+            "promoted": "29d1a6e024fad66befbf4dcd103a5ac6992728861b3d93bfe1e0d87b16a7d42f"
+          }
+        ],
+        [
+          {
+            "left": "a48443ccf3a16cf64c8c643c3a3a9d157322333dc901101244db83d915e650b7",
+            "right": "29d1a6e024fad66befbf4dcd103a5ac6992728861b3d93bfe1e0d87b16a7d42f",
+            "parent": "4ab89038e7c0bb5105f9026ad494895496908a4af618ba8f1a572e898566d2f6"
+          }
+        ]
+      ],
+      "merkle_root": "4ab89038e7c0bb5105f9026ad494895496908a4af618ba8f1a572e898566d2f6"
+    }
+  ]
+}

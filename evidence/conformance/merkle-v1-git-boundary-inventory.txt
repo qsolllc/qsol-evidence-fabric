@@ -1,0 +1,96 @@
+============================================================
+QSOL MERKLE-V1 — GIT BOUNDARY INVENTORY
+============================================================
+workspace=/data/data/com.termux/files/home/qsol-evidence-fabric
+specification=specification/MERKLE-V1.md
+specification_sha256=596ad7225200b15aece0b29950e98ff69f1faffa9652a20aaae8fe70c2b16abf
+
+============================================================
+2. GIT REPOSITORY ROOT
+============================================================
+/data/data/com.termux/files/home/qsol-evidence-fabric
+
+============================================================
+3. CURRENT COMMIT
+============================================================
+6499df5d80436b8fe5adb95eea519b370888a73d
+
+============================================================
+4. REMOTES
+============================================================
+origin	https://github.com/qsolllc/qsol-evidence-fabric.git (fetch)
+origin	https://github.com/qsolllc/qsol-evidence-fabric.git (push)
+
+============================================================
+5. REMOTE FETCH CONFIGURATION
+============================================================
+remote.origin.url https://github.com/qsolllc/qsol-evidence-fabric.git
+remote.origin.fetch +refs/heads/*:refs/remotes/origin/*
+
+============================================================
+6. REMOTE-TRACKING REFERENCES
+============================================================
+refs/remotes/origin/HEAD 6499df5d80436b8fe5adb95eea519b370888a73d commit
+refs/remotes/origin/main 6499df5d80436b8fe5adb95eea519b370888a73d commit
+
+============================================================
+7. LOCAL HEAD / BRANCH REFERENCES
+============================================================
+refs/heads/main 6499df5d80436b8fe5adb95eea519b370888a73d commit
+
+============================================================
+8. TAGS
+============================================================
+
+============================================================
+9. GIT OBJECT DATABASE
+============================================================
+count: 0
+size: 0
+in-pack: 3
+packs: 1
+size-pack: 2
+prune-packable: 0
+garbage: 0
+size-garbage: 0
+
+============================================================
+10. CURRENT WORKTREE STATUS
+============================================================
+?? CHANGELOG.md
+?? Cargo.lock
+?? Cargo.toml
+?? SPEC.md
+?? evidence/
+?? profiles/
+?? python/
+?? rust/
+?? specification/
+?? target/
+?? vectors/
+
+============================================================
+11. SPECIFICATION TRACKING STATUS
+============================================================
+error: pathspec 'specification/MERKLE-V1.md' did not match any file(s) known to git
+Did you forget to 'git add'?
+
+============================================================
+12. REMOTE PROVENANCE RULE
+============================================================
+This inventory records repository boundary and reference facts.
+
+It does NOT establish MERKLE-V1 authority or FROZEN status.
+
+A remote URL alone is not promotion evidence.
+A remote branch alone is not promotion evidence.
+A commit containing the specification alone is not promotion evidence.
+
+A valid promotion finding still requires:
+  1. exact specification identity;
+  2. explicit promotion/status event;
+  3. explicit connection between that event and the specification.
+
+authority_inference=DISABLED
+promotion_inference=DISABLED
+git_boundary_inventory_completed=true

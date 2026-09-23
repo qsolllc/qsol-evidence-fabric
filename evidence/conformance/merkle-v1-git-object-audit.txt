@@ -1,0 +1,64 @@
+============================================================
+QSOL MERKLE V1 — EXACT GIT OBJECT PROVENANCE AUDIT
+============================================================
+workspace=/data/data/com.termux/files/home/qsol-evidence-fabric
+specification=specification/MERKLE-V1.md
+current_spec_sha256=596ad7225200b15aece0b29950e98ff69f1faffa9652a20aaae8fe70c2b16abf
+
+============================================================
+1. REPOSITORY IDENTITY
+============================================================
+/data/data/com.termux/files/home/qsol-evidence-fabric
+true
+6499df5d80436b8fe5adb95eea519b370888a73d
+
+============================================================
+2. CURRENT FILE OBJECT
+============================================================
+87ba93402bbed669414fe45a02ff20b7c7f3c118
+596ad7225200b15aece0b29950e98ff69f1faffa9652a20aaae8fe70c2b16abf  specification/MERKLE-V1.md
+6150 specification/MERKLE-V1.md
+
+============================================================
+3. COMPLETE FILE HISTORY
+============================================================
+
+============================================================
+4. COMMITS TOUCHING MERKLE-V1
+============================================================
+
+============================================================
+5. HISTORICAL CONTENT STATUS SEARCH
+============================================================
+
+============================================================
+6. TAGS CONTAINING FILE HISTORY
+============================================================
+
+============================================================
+7. BRANCHES CONTAINING CURRENT FILE
+============================================================
+
+============================================================
+8. PROMOTION-RELATED COMMIT SUBJECTS
+============================================================
+
+============================================================
+9. EVIDENTIARY CLASSIFICATION RULE
+============================================================
+Git lineage establishes provenance facts.
+
+Git lineage alone does NOT establish specification authority.
+
+A valid promotion finding requires:
+  1. exact MERKLE-V1 identity;
+  2. explicit promotion/status event;
+  3. explicit connection between the event and the specification.
+
+authority_inference=DISABLED
+promotion_inference=DISABLED
+
+============================================================
+10. AUDIT COMPLETION
+============================================================
+git_object_audit_completed=true

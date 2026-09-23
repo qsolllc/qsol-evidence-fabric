@@ -1,0 +1,6 @@
+timestamp_utc=2026-08-11T05:10:08Z
+artifact=target/aarch64-linux-android/release/verify-merkle-v1
+sha256=b0de2f8c798260e748f29a1ba8ea305bfe11af0e37c82d6a24c18065f59fd390
+size_bytes=770632
+file=target/aarch64-linux-android/release/verify-merkle-v1: ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, for Android 30, built by NDK r29 (14206865), not stripped
+architecture=AArch64
